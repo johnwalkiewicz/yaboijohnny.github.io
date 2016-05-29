@@ -1,0 +1,84 @@
+<html>
+     <head>
+         <title>Landing Page</title>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- Browsers read top to bottom. So we put custom files after the generic. -->
+         <link rel="stylesheet" href="css/normalize.css">
+         <link href='https://fonts.googleapis.com/css?family=Cantarell:700italic,700' rel='stylesheet' type='text/css'>
+         <link rel="stylesheet" type="text/css" href="css/style.css"> 
+         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700' rel='stylesheet' type='text/css'>
+         <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+         <!--Import Google Icon Font-->
+         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <!--Import materialize.css-->
+         <link href="css/materialize.min.css" rel="stylesheet" type="text/css"/>
+     </head>
+     <body>
+         <!-- part of site content -->
+        <header>
+          <a href="index.html" id="logo">
+         <!-- Headline 1 --> 
+           <h1><img src="img/coologo_1.png" alt="Logo Image"></h1>
+           <h2 class="names">By Juan & John</h2>
+          </a>
+          <!-- Nav is short for navigation -->
+          <nav>
+              <!-- unordered list, bulleted list -->
+              <ul>
+              <!-- List Item --> 
+                  <li><a href="index.html" >Home</a></li>
+                  <li><a href="about.html">About Us!</a></li>
+                  <li><a href="contact.html" class="selected">Contact Us!</a></li>
+                  
+              </ul>   
+            </nav>
+                 <ul id="slide-out" class="side-nav fixed">
+                 <li><a href="soccer.html"><img class="icon-soccer" src="img/soccerball.jpg" alt="">Soccer</a></li>
+                 <li><a href="baseball.html"><img class="icon-baseball" src="img/baseball-icon.jpg" alt="">Baseball</a></li>
+                 <li><a href="basketball.html"><img class="icon-basketball" src="img/basketball-icon.jpg" alt="">Basketball</a></li>
+                 <li><a href="football.html"><img class="icon-football" src="img/football-icon.jpg" alt="">Football</a></li>
+                 </ul>
+          
+        </header>
+         <div id="wrapper">
+             <section id="primary"> 
+                 <h3>General Information!</h3>
+                 <p>The creators(Juan and John) are currently freshman at PHS! Welcome to our website and we hope to bring the best content & news to our viewers!</p>
+                 <p>Gmail is the best way to reach us!</p>
+             </section>
+             <section id="secondary"> 
+                 <h3>Contact Details</h3>
+                  <ul class="contact-info">
+                      <li class="mail"><a href="mailto:Wa5570Jo0219@pusd.us">Email</a></li>
+                      <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=YaBoiJohnny">Twitter</a></li>
+                  </ul>
+             </section>
+             <br><br>
+             <br><br>
+             <br><br>
+            <form action="http://formspree.io/yerboijohnny@gmail.com"
+            method="POST">
+           
+            <input type="text" name="name">
+            <br><br>
+            <input type="text" name="message">
+            <br><br>
+            <input  class="email" type="email" name="_replyto">
+            
+            <input type="submit" value="Send">
+          </form>
+             
+             </div>
+            <footer>
+                 <!-- Absolute path when it is absolutely necessary, Relative paths whenever we can -->
+                 <a href="http://twitter.com"><img src="img/twitter.jpg" alt="Twitter Handle" class="social-media-icon"></a>
+                 <a href="mailto:Wa5570Jo0219@pusd.us"><img src="img/gmail.jpg" alt="My Gmail" class="social-media-icon"></a> 
+                 <p>&copy; 2016 John Walkiewicz & Juan Yepez</p>
+            </footer>
+         </div>
+                <!--Import jQuery before materialize.js-->
+                <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+                <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+ </html>
